@@ -8,11 +8,11 @@ Parameters:
 Mappings:
   SubnetConfig:
     VPC:
-      CIDR: '172.16.0.0/16'
+      CIDR: '172.31.0.0/16'
     PublicOne:
-      CIDR: '172.16.0.0/24'
+      CIDR: '172.31.32.0/20'
     PublicTwo:
-      CIDR: '172.16.1.0/24'
+      CIDR: '172.31.0.0/20'
 
 Resources:
   VPC:
